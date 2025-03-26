@@ -1,0 +1,22 @@
+.custom-logo {
+    max-width: 150px;
+}
+
+.nav-link:hover {
+    background-color: none;
+    font-size: large;
+    color: #266AA6
+}
+
+/* Footer */
+.logo-footer {
+    width: 8%;
+}
+
+footer {
+    background-color: whitesmoke;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
