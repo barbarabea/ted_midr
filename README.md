@@ -1,54 +1,11 @@
-# React + TypeScript + Vite
+# Projeto TED-MIDR 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O objetivo geral deste projeto é desenvolver e implementar dashboards interativos utilizando o Power BI para monitorar e avaliar os indicadores do Plano Regional de Desenvolvimento do Centro-Oeste (PRDCO) 2024-2027, com foco na análise da carteira de projetos e na convergência do PRDCO com as políticas e planos de desenvolvimento regionais, facilitando a tomada de decisão e promovendo a transparência na gestão do desenvolvimento regional.
 
-Currently, two official plugins are available:
+🔧 **Desenvolvimento dos Dashboards**  
+Para o desenvolvimento dos dashboards, utilizamos a ferramenta Power BI, juntamente com Power Query e Python para o tratamento de dados. Este projeto, hospedado no GitHub, corresponde exclusivamente à criação da ferramenta de visualização dos dashboards.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 **Desenvolvimento do Site**  
+Para o desenvolvimento do site, foram utilizadas as linguagens de programação TypeScript e JavaScript, juntamente com a biblioteca React, seguindo o padrão de sites do governo, conforme pode ser consultado em https://www.gov.br/ds/home.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
