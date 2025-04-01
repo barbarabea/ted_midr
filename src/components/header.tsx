@@ -1,5 +1,6 @@
 import React from 'react';
 import './headerFooterStyle.css'; 
+import '../styles/globalStyles.css'; 
 import { PiLineVerticalThin } from "react-icons/pi";
 
 const Header: React.FC = () => {

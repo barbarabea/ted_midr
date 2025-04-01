@@ -1,0 +1,18 @@
+body {
+    font-family: 'Rawline', sans-serif;
+  }
+
+.titles-color {
+    color: #545454;
+}
+
+.texts-color {
+    color: #545454;
+    margin: 20px 0;
+}
+
+.subtitles-color {
+    color: #2864AD;
+    font-weight: bold; 
+    margin: 20px 0;
+}

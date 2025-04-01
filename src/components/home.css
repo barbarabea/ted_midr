@@ -1,0 +1,6 @@
+.power-bi-home {
+    width: 100%;   /* O iframe vai ocupar toda a largura do container pai */
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
